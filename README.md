@@ -108,6 +108,7 @@ Setup
 
 Refer 
 https://wiki.openwrt.org/doc/howto/buildroot.exigence
+
 https://wiki.openwrt.org/doc/howto/build
 
 
