@@ -89,4 +89,135 @@ My router pictures
 
 
 
+Note: If your router version is 3 i.e. same as mine, you can
+use my firmware instead of going through whole compilation process
+
+
+
+
+
+
+
+You should have Linux system, I used Ubuntu on VMware
+
+
+
+Setup
+
+
+
+Refer 
+https://wiki.openwrt.org/doc/howto/buildroot.exigence
+https://wiki.openwrt.org/doc/howto/build
+
+
+
+
+
+Open Terminal and paste each one by one
+
+
+
+
+
+`sudo apt-get update`
+
+
+
+
+
+`sudo apt-get install git-core build-essential libssl-dev
+libncurses5-dev unzip gawk zlib1g-dev`
+
+
+
+ 
+
+
+
+`sudo apt-get install subversion mercurial quilt`
+
+
+
+ 
+
+
+
+`sudo apt-get install asciidoc bash bc binutils bzip2 fastjar
+flex git-core gcc-c gcc util-linux gawk libgtk2.0-dev intltool jikespg
+zlib1g-dev make genisoimage libncurses5-dev libssl-dev patch perl-modules
+python2.6-dev rsync ruby sdcc unzip wget gettext xsltproc zlib1g-dev
+libboost1.55-dev libxml-parser-perl libusb-dev bin86 bcc sharutils
+openjdk-7-jdk`
+
+
+
+ 
+
+
+
+`sudo apt-get install build-essential subversion git-core
+libncurses5-dev zlib1g-dev gawk flex quilt libssl-dev xsltproc
+libxml-parser-perl mercurial bzr ecj cvs unzip`
+
+
+
+ 
+
+
+
+`sudo apt-get install build-essential subversion
+libncurses5-dev zlib1g-dev gawk gcc-multilib flex git-core gettext libssl-dev`
+
+
+
+ 
+
+
+
+`git config --global http.postBuffer 1048576000`
+
+
+
+ 
+
+
+
+`git clone https://github.com/openwrt/openwrt.git`
+
+
+
+`cd openwrt`
+
+
+
+`./scripts/feeds update -a`
+
+
+
+`./scripts/feeds install -a`
+
+
+
+ 
+
+
+
+`make menuconfig`
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
