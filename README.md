@@ -359,7 +359,7 @@ In `arch/mips/ath79/Kconfig file`
 
 
 
-1.Add    
+1. Add    
 
 
 
