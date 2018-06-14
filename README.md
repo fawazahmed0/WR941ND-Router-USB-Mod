@@ -253,8 +253,8 @@ Open new terminal and type
  
 
 
-
-`cat > ~/.quiltrc <<EOF
+`
+cat > ~/.quiltrc <<EOF
 
 
 
@@ -281,6 +281,7 @@ EDITOR="nano"
 
 
 EOF
+
 `
 
 
@@ -453,7 +454,8 @@ below
 
 
 
-`static void __init tl_wr941nd_usb_setup(void)
+`
+static void __init tl_wr941nd_usb_setup(void)
 
 
 
@@ -500,12 +502,14 @@ Below
 
 
 `
+
                 .chip                      =
 &tl_wr941nd_dsa_chip,
 
 
 
  };
+ 
 `
 
 
@@ -714,31 +718,17 @@ related to usb such as block-mount
 
 
 
-`kmod-scsi-core
+`
 
-
-
+kmod-scsi-core
 kmod-fs-ext4
-
-
-
 kmod-usb-storage
-
-
-
 kmod-usb-storage-extras
-
-
-
 kmod-usb2
-
-
-
 kmod-usb-uhci
+kmod-usb-ohci
 
-
-
-kmod-usb-ohci`
+`
 
 
 
@@ -772,24 +762,12 @@ It should show something like this
 `
 [    7.200000] scsi
 0:0:0:0: Direct-Access     SanDisk  Cruzer Edge      2.01 PQ: 0 ANSI: 6
-
-
-
 [    7.210000] sd
 0:0:0:0: [sda] 15633408 512-byte logical blocks: (8.00 GB/7.45 GiB)
-
-
-
 [    7.230000] sd
 0:0:0:0: [sda] Write Protect is off
-
-
-
 [    7.230000] sd
 0:0:0:0: [sda] Mode Sense: 43 00 00 00
-
-
-
 [    7.240000] sd
 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO
 or FUA
