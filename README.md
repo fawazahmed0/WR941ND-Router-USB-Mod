@@ -351,7 +351,7 @@ Now you have to add the following changes using quilt edit
 
 
 
-   - In `arch/mips/ath79/Kconfig file`
+In `arch/mips/ath79/Kconfig file`
 
 
 
@@ -367,7 +367,7 @@ Now you have to add the following changes using quilt edit
 
 
 
-Below 
+   Below 
 
 
 
@@ -379,7 +379,7 @@ Below
 
 
 
-- In `arch/mips/ath79/mach-tl-wr941nd.c`
+In `arch/mips/ath79/mach-tl-wr941nd.c`
 
 
 
@@ -395,7 +395,7 @@ Below
 
 
 
-below
+   below
 
 
 
@@ -415,7 +415,7 @@ below
 
 
 
-below
+   below
 
 
 
@@ -439,7 +439,7 @@ below
 
 
 
-below
+   below
 
 
 
@@ -499,7 +499,7 @@ enable power for the USB port */
 
 
 
-Below
+   Below
 
 
 ```
@@ -526,7 +526,7 @@ Below
 
 
 
-above
+   above
 
 
 
@@ -538,7 +538,7 @@ above
 
 
 
-- In `/arch/mips/ath79/setup.c`
+In `/arch/mips/ath79/setup.c`
 
 
 
@@ -550,7 +550,7 @@ above
 
 
 
-below
+   below
 
 
 
@@ -798,7 +798,7 @@ Refer https://wiki.openwrt.org/doc/howto/extroot
 
 
 
-Refer openwrt docs for more help
+Refer openwrt docs for more information
 
 
 
