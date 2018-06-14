@@ -351,7 +351,7 @@ Now you have to add the following changes using quilt edit
 
 
 
-In `arch/mips/ath79/Kconfig file`
+- In `arch/mips/ath79/Kconfig file`
 
 
 
@@ -379,7 +379,7 @@ Below
 
 
 
-In `arch/mips/ath79/mach-tl-wr941nd.c`
+- In `arch/mips/ath79/mach-tl-wr941nd.c`
 
 
 
@@ -538,11 +538,11 @@ above
 
 
 
-In `/arch/mips/ath79/setup.c`
+- In `/arch/mips/ath79/setup.c`
 
 
 
-Add
+1. Add
 
 
 
