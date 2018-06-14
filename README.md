@@ -351,7 +351,7 @@ Now you have to add the following changes using quilt edit
 
 
 
-- In `arch/mips/ath79/Kconfig file`
+   - In `arch/mips/ath79/Kconfig file`
 
 
 
