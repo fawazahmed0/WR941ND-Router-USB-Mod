@@ -330,7 +330,7 @@ Now go to `openwrt/target/linux/ar71xx/patches****`
 
 
 
-And note down the last file number in my case 907
+And note down the last file number in my case 902
 
 
 
@@ -338,7 +338,7 @@ Now type
 
 
 
-`quilt new platform/908-add-usb-wr941nd.patch`
+`quilt new platform/903-add-usb-wr941nd-barrierbreaker.patch`
 
 
 
