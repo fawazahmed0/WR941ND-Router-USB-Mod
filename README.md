@@ -5,3 +5,4 @@ By attaching usb in your router you can torrent in your router,setup NAS in your
 
 Hardware Modification Part:
 
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
