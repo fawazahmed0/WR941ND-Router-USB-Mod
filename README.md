@@ -26,21 +26,21 @@ not buying 7805)
 
 Attach 4.7k ohm resistor as shown in figures
 
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/a_4.7k_resistor1.jpg)
 
 
 
 Attach 15k ohm resistor as shown in figures
 
 ![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/c_15k_resistor1.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/d_15k_resistor2.jpg)
 
 
 Attach 22 ohms resistor as shown in figures
 
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/e_22_ohm_resistor1.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/f-22-ohm-resistor2.jpg)
 
 
 
@@ -54,7 +54,7 @@ Attach 22 ohms resistor as shown in figures
 
 USB connector and board connection
 
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/g-usb-location-in-board.jpg)
 
 
 
@@ -62,11 +62,11 @@ USB connector and board connection
 
 5volts for USB Connector
 
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/h-flow.png)
 
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/i_9volts.jpg)
 
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/i-negative.jpg)
 
 
 
@@ -77,9 +77,9 @@ USB connector and board connection
 My router pictures
 
 
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/io_end.jpg)
 
-![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/b_15k_resistor2.jpg)
+![image](https://github.com/fawazahmed0/wr941nd-router-usb-mod/blob/master/images/ip_end.jpg)
 
 
 
