@@ -714,19 +714,20 @@ You can find the firmware images at bin folder
 
 
 Flash the firmware in your router and install packages
-related to usb such as block-mount
+related to usb such as 
 
 
 
 ```
+block-mount
 
-kmod-scsi-core
+kmod-scsi-core (optional, I guess)
 
 kmod-fs-ext4
 
 kmod-usb-storage
 
-kmod-usb-storage-extras
+kmod-usb-storage-extras (optional)
 
 kmod-usb2
 
