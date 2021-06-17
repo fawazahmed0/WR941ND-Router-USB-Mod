@@ -721,7 +721,7 @@ related to usb such as
 ```
 block-mount
 
-kmod-scsi-core (optional, I guess)
+kmod-scsi-core
 
 kmod-fs-ext4
 
