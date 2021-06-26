@@ -787,6 +787,7 @@ or FUA
 ```
 
  
+ Refer: https://forum.archive.openwrt.org/viewtopic.php?id=18354&p=7#p124636
 
 
 
@@ -799,6 +800,9 @@ Refer https://wiki.openwrt.org/doc/howto/extroot
 
 
 Refer openwrt docs for more information
+
+
+
 
 
 
