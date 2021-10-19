@@ -89,7 +89,8 @@ Things Required:
 
 
 Note: If your router version is 3 i.e. same as mine, you can
-use my firmware instead of going through whole compilation process
+use my firmware instead of going through whole compilation process.
+It is available at [here](https://github.com/fawazahmed0/WR941ND-Router-USB-Mod/releases/tag/v1)
 
 
 
