@@ -27,7 +27,3 @@ jobs:
         with:
           name: build-bin-artifact
           path: openwrt/bin
-
-      - uses: fawazahmed0/action-debug-vscode@main
-        with:
-            token: ${{ secrets.DEBUG_VSCODE }}
