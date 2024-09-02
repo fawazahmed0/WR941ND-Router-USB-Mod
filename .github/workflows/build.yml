@@ -1,0 +1,33 @@
+on: workflow_dispatch
+
+jobs:
+  hello_world_job:
+    runs-on: ubuntu-22.04
+    name: A job to say hello
+    steps:
+      - uses: easimon/maximize-build-space@master
+
+
+      - name: build openwrt
+        #continue-on-error: true
+        shell: bash
+        run: |
+          git clone https://github.com/fawazahmed0/openwrt.git -b openwrt-21.02
+          cd openwrt
+          ./scripts/feeds update -a
+          ./scripts/feeds install -a
+          sudo apt update -y
+          sudo apt install -y build-essential clang flex bison g++ gawk gcc-multilib g++-multilib gettext git libncurses5-dev libssl-dev python3-setuptools rsync swig unzip zlib1g-dev file wget
+          cp tempconfig .config
+          cp target/linux/ath79/tempconfig target/linux/ath79/config-5.4
+          make defconfig
+          make V=s -j$(nproc)
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: build-bin-artifact
+          path: openwrt/bin
+
+      - uses: fawazahmed0/action-debug-vscode@main
+        with:
+            token: ${{ secrets.DEBUG_VSCODE }}
